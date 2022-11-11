@@ -85,6 +85,9 @@ a:hover{
         width: 95%;
         font-size: 12px;
     }
+    main>div>h2{
+        margin-bottom: 12px;
+    }
     footer>div{
         font-size: 12px;
     }
@@ -99,6 +102,9 @@ a:hover{
     main>div{
         width: 95%;
         font-size: 8px;
+    }
+    main>div>h2{
+        margin-bottom: 8px;
     }
     footer>div{
         font-size: 8px;
