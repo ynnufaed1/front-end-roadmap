@@ -74,3 +74,33 @@ a:hover{
     border-bottom: 1px solid #124477;
     color: #124477;
 }
+@media screen and (max-width: 646px) {
+    header{
+        height: 15vh;
+    }
+    header>div{
+        font-size: 12px;
+    }
+    main>div{
+        width: 95%;
+        font-size: 12px;
+    }
+    footer>div{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 441px) {
+    header{
+        height: 10vh;
+    }
+    header>div{
+        font-size: 8px;
+    }
+    main>div{
+        width: 95%;
+        font-size: 8px;
+    }
+    footer>div{
+        font-size: 8px;
+    }
+}
