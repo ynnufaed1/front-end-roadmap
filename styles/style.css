@@ -82,17 +82,17 @@ a:hover{
         height: 20vh;
     }
     header>div{
-        font-size: 14px;
+        font-size: 12px;
     }
     main>div{
         width: 95%;
-        font-size: 14px;
+        font-size: 12px;
     }
     main>div>h2{
-        margin-bottom: 14px;
+        margin-bottom: 12px;
     }
     footer>div{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 441px) {
