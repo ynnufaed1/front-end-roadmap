@@ -79,6 +79,24 @@ a:hover{
 }
 @media screen and (max-width: 646px) {
     header{
+        height: 20vh;
+    }
+    header>div{
+        font-size: 14px;
+    }
+    main>div{
+        width: 95%;
+        font-size: 14px;
+    }
+    main>div>h2{
+        margin-bottom: 14px;
+    }
+    footer>div{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 441px) {
+    header{
         height: 15vh;
     }
     header>div{
@@ -93,23 +111,5 @@ a:hover{
     }
     footer>div{
         font-size: 12px;
-    }
-}
-@media screen and (max-width: 441px) {
-    header{
-        height: 10vh;
-    }
-    header>div{
-        font-size: 8px;
-    }
-    main>div{
-        width: 95%;
-        font-size: 8px;
-    }
-    main>div>h2{
-        margin-bottom: 8px;
-    }
-    footer>div{
-        font-size: 8px;
     }
 }
