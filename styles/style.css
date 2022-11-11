@@ -36,6 +36,7 @@ header>div>h2{
     padding-top: 2.5%;
 }
 main{
+    box-sizing: border-box;
     width: 100vw;
     display: flex;
     flex-direction: column;
