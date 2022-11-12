@@ -19,6 +19,7 @@ header{
     justify-content: center;
     align-items: center;
     background: linear-gradient(75deg, #155899, #7A3F99);
+    overflow-x: hidden;
 }
 header>div{
     width: 50% auto;
@@ -43,6 +44,7 @@ main{
     align-items: center;
     font-size: 20px;
     color: rgb(75, 73, 73);
+    overflow-x: hidden;
 }
 main>div{
     width: 50%;
@@ -76,4 +78,90 @@ a:hover{
     padding-left: 0.5px;
     border-bottom: 1px solid #124477;
     color: #124477;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header{
+        height: 25vh;
+        font-size: 18px;
+    }
+    header>div>h2{
+        padding-top: 2%;
+    }
+    main{
+        font-size: 18px;
+    }
+    main>div{
+        width: 95%;
+        padding: 1.8rem 1.8rem 1.8rem 1.8rem;
+    }
+    main>div>h2{
+        margin-bottom: 18px;
+    }
+    main>div>p{
+        margin-top: 14px;
+    }
+    ol, ul{
+        padding-left: 46px;
+    }
+    li{
+        margin-top: 9px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header{
+        height: 15vh;
+        font-size: 16px;
+    }
+    header>div>h2{
+        padding-top: 1%;
+        display: none;
+    }
+    main{
+        font-size: 16px;
+    }
+    main>div{
+        width: 97.5%;
+        padding: 1.575rem 1.575rem 1.575rem 1.575rem;
+    }
+    main>div>h2{
+        margin-bottom: 12px;
+    }
+    main>div>p{
+        margin-top: 10px;
+    }
+    ol, ul{
+        padding-left: 35px;
+    }
+    li{
+        margin-top: 7px;
+    }
+}
+@media screen and (max-width: 480px) {
+    header{
+        height: 10vh;
+        font-size: 14px;
+    }
+    header>div>h2{
+        padding-top: 1%;
+        display: none;
+    }
+    main{
+        font-size: 14px;
+    }
+    main>div{
+        width: 98%;
+        padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    }
+    main>div>h2{
+        margin-bottom: 10px;
+    }
+    main>div>p{
+        margin-top: 8px;
+    }
+    ol, ul{
+        padding-left: 30px;
+    }
+    li{
+        margin-top: 6px;
+    }
 }
