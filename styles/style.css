@@ -82,6 +82,8 @@ a:hover{
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     header{
         height: 25vh;
+    }
+    header>div{
         font-size: 18px;
     }
     header>div>h2{
@@ -110,6 +112,8 @@ a:hover{
 @media screen and (min-width: 481px) and (max-width: 768px) {
     header{
         height: 15vh;
+    }
+    header>div{
         font-size: 16px;
     }
     header>div>h2{
@@ -139,6 +143,8 @@ a:hover{
 @media screen and (max-width: 480px) {
     header{
         height: 10vh;
+    }
+    header>div{
         font-size: 14px;
     }
     header>div>h2{
