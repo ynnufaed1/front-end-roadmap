@@ -52,7 +52,13 @@ main>div{
 }
 main>div>h2{
     color: #00991F;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+h3{
+    color: #7A3F99;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-weight: 400;
 }
 main>div>p{
